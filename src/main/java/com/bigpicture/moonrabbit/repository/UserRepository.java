@@ -1,6 +1,6 @@
-package com.bigpicture.moonrabit.repository;
+package com.bigpicture.moonrabbit.repository;
 
-import com.bigpicture.moonrabit.domain.user.User;
+import com.bigpicture.moonrabbit.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

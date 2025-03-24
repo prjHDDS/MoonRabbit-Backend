@@ -1,9 +1,9 @@
-package com.bigpicture.moonrabit.controller;
+package com.bigpicture.moonrabbit.controller;
 
 
-import com.bigpicture.moonrabit.domain.user.User;
-import com.bigpicture.moonrabit.dto.UserResponseDTO;
-import com.bigpicture.moonrabit.service.UserService;
+import com.bigpicture.moonrabbit.domain.user.User;
+import com.bigpicture.moonrabbit.dto.UserResponseDTO;
+import com.bigpicture.moonrabbit.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

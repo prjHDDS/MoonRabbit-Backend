@@ -1,4 +1,4 @@
-package com.bigpicture.moonrabit.domain.user;
+package com.bigpicture.moonrabbit.domain.user;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

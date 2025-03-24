@@ -1,4 +1,4 @@
-package com.bigpicture.moonrabit.exception;
+package com.bigpicture.moonrabbit.exception;
 
 public class UserAlreadyExistsException extends CustomException {
     public UserAlreadyExistsException() {

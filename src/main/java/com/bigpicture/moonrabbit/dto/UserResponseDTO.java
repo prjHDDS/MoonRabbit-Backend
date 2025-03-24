@@ -1,7 +1,6 @@
-package com.bigpicture.moonrabit.dto;
+package com.bigpicture.moonrabbit.dto;
 
-import com.bigpicture.moonrabit.domain.user.User;
-import lombok.AllArgsConstructor;
+import com.bigpicture.moonrabbit.domain.user.User;
 import lombok.Getter;
 
 @Getter
