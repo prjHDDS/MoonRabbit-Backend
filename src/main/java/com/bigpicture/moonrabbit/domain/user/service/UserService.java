@@ -1,9 +1,9 @@
-package com.bigpicture.moonrabbit.service;
+package com.bigpicture.moonrabbit.domain.user.service;
 
-import com.bigpicture.moonrabbit.domain.user.User;
-import com.bigpicture.moonrabbit.exception.UserAlreadyExistsException;
-import com.bigpicture.moonrabbit.exception.UserNotFoundException;
-import com.bigpicture.moonrabbit.repository.UserRepository;
+import com.bigpicture.moonrabbit.domain.user.entity.User;
+import com.bigpicture.moonrabbit.global.exception.UserAlreadyExistsException;
+import com.bigpicture.moonrabbit.global.exception.UserNotFoundException;
+import com.bigpicture.moonrabbit.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
