@@ -1,4 +1,4 @@
-package com.bigpicture.moonrabbit.exception;
+package com.bigpicture.moonrabbit.global.exception;
 
 public class UserNotFoundException extends CustomException {
     public UserNotFoundException() {

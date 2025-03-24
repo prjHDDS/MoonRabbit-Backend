@@ -1,6 +1,6 @@
-package com.bigpicture.moonrabbit.dto;
+package com.bigpicture.moonrabbit.domain.user.dto;
 
-import com.bigpicture.moonrabbit.domain.user.User;
+import com.bigpicture.moonrabbit.domain.user.entity.User;
 import lombok.Getter;
 
 @Getter
