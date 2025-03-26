@@ -1,8 +1,6 @@
 package com.bigpicture.moonrabbit.domain.user.service;
 
 import com.bigpicture.moonrabbit.domain.user.entity.User;
-//import com.bigpicture.moonrabbit.global.exception.UserAlreadyExistsException;
-//import com.bigpicture.moonrabbit.global.exception.UserNotFoundException;
 import com.bigpicture.moonrabbit.domain.user.repository.UserRepository;
 import com.bigpicture.moonrabbit.global.exception.ErrorCode;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +18,7 @@ public class UserService {
     public User saveUser(User user) {
         Optional<User> existingUser = userRepository.findByEmail(user.getEmail());
         if (existingUser.isPresent()) {
-            CustomException.UserAlreadyExistsException();
+            throw new CustomException(ErrorCode.USER_ALREADY_EXISTS);
         }
         return userRepository.save(user);
     }
