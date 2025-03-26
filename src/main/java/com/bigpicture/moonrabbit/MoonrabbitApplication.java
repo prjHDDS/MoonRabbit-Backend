@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MoonrabitApplication {
+public class MoonrabbitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MoonrabitApplication.class, args);
+		SpringApplication.run(MoonrabbitApplication.class, args);
 	}
 
 }

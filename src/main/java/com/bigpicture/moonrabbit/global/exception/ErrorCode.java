@@ -1,4 +1,4 @@
-package com.bigpicture.moonrabbit.exception;
+package com.bigpicture.moonrabbit.global.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
