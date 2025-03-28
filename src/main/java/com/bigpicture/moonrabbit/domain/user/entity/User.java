@@ -28,7 +28,7 @@ public class User {
     private String email;
 
 
-    @NotNull(message = "비밀번호는 필수 입력입니다.")
+    @Column(nullable = true)
     @Pattern(regexp = "^(?=.*[a-zA-Z])(?=.*[!@#$%^&*()_+\\-=\\[\\]{};':\"\\\\|,.<>\\/?]).{8,}$",
             message = "비밀번호는 최소 8자 이상이어야 하며, 적어도 하나의 영문자와 하나의 특수 문자를 포함해야 합니다.")
     private String password;
